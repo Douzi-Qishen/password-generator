@@ -1,0 +1,14 @@
+{
+  "name": "password-generator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "本地生成、适合 Mac US QWERTY 键盘输入的短随机密码",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test generator.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
